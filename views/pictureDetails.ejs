@@ -8,12 +8,10 @@
         <div class="mb-3">
             <input class="form-control" type="file" id="formFile">
         </div>
-        <% pictures.forEach(function(picture){ %>
             <div class="text-center">
-              <img class="mb-3" src="/<%=picture%>"/<%=picture%>" style="width:100px">
+              <img class="mb-3" src="/<%=picture%>"/<%=picture%>" style="width:200px">
               <h4><%=picture%></h4>
             </div>
-            <% });%>
         <script src="../javascripts/pictures.js"></script>
     </body>
 </html>
